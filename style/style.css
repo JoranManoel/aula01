@@ -1,0 +1,56 @@
+body{
+    background-color: blueviolet;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa-login{
+    background-color: rgb(205, 204, 204);
+    width: 400px;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    padding: 5%;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(91, 18, 159);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.caixa-logo{
+    display: flex;
+
+    justify-content: center;
+}
+
+.apoio{
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: none;
+
+    color: blueviolet;
+}

@@ -1,10 +1,10 @@
-function entrar(){
+function entrar() {
     var senha = "joransilva"
     var senhaDigitada = document.getElementById("pass")
 
-    if(senhaDigitada.value == senha){
+    if (senhaDigitada.value == senha) {
         alert("Bem vindo !")
-    }else{
+    } else {
         alert("Senha Incorreta!")
     }
 

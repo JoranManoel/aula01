@@ -1,11 +1,16 @@
 function entrar() {
-    var senha = "joransilva"
-    var senhaDigitada = document.getElementById("pass")
+    
+    //Como estivesse no BD
+    var senha = "1234"
+    var usuario = "joran@gmail.com"
 
-    if (senhaDigitada.value == senha) {
+    var senhaDigitada = document.getElementById("pass")
+    var usuarioDigitado = document.getElementById("user")
+
+    if (senhaDigitada.value == senha && usuarioDigitado.value == usuario) {
         alert("Bem vindo !")
+        window.location.href = "profile.html"
     } else {
         alert("Senha Incorreta!")
     }
-
 }

@@ -10,17 +10,17 @@ body{
     font-size: 20px;
 }
 .perfil{
-    background-color: aqua;
     display: flex;
 
     padding: 2%;
     align-items: center;
     justify-content: space-around;
 }
-.card{
-    background-color: blue;
+.card, .add{
     height: 200px;
     width: 200px;
+
+    color: darkgray;
 
     cursor: pointer;
 
@@ -33,6 +33,10 @@ body{
 }
 .container{
     text-align: center;
-    background-color: red;
     width: 60%;
+}
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

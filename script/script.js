@@ -14,3 +14,9 @@ function entrar() {
         alert("Senha Incorreta!")
     }
 }
+ 
+const card = document.getElementsByClassName("card")
+
+card[0].addEventListener("click",()=>{
+    window.location.href = "home.html"
+})

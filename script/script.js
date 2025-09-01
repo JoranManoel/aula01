@@ -1,8 +1,8 @@
 function entrar() {
     
     //Como estivesse no BD
-    var senha = "1234"
-    var usuario = "joran@gmail.com"
+    const senha = "1234"
+    const usuario = "joran@gmail.com"
 
     var senhaDigitada = document.getElementById("pass")
     var usuarioDigitado = document.getElementById("user")

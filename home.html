@@ -5,60 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/netflix.png" type="image/x-icon">
     <link rel="stylesheet" href="style/home.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
     <title>Netflix</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="menu">
-                <img src="assets/logo.png" class="logo" alt="">
-                <ul>
-                    <li>início</li>
-                    <li>filmes</li>
-                    <li>séries</li>
-                    <li>documentarios</li>
-                </ul>
+    <div class="container">
+        
+        <header>
+            <nav>
+                <div class="menu">
+                    <img src="assets/logo.png" class="logo" alt="">
+                    <ul>
+                        <li>início</li>
+                        <li>filmes</li>
+                        <li>séries</li>
+                        <li>documentarios</li>
+                    </ul>
+                </div>
+                <a href="profile.html" class="procura">
+                    <img src="assets/prf1.jpg" class="img_perfil" alt="">
+                    <h3>Joran</h3>
+                </a>
+            </nav>
+    
+            <div class="descricao">
+                <h1>Bloodshot</h1>
+                <p>
+                    Bloodshot é um ex-soldado com poderes especiais: regeneração e capacidade de se 
+                    metamorfosear. Assassinado ao lado da esposa, 
+                    ele é ressuscitado e aprimorado com nanotecnologia, desenvolvendo tais habilidades.
+                </p>
+           </div>
+           <a href="bloodshot.html">
+            <button class="button" >▶ Reproduzir</button>
+           </a>
+            <button class="button" id="btn_lista">+ Minha lista</button>
+ 
+        </header>
+        <main>
+            <h2>Populares na Netflix</h2>
+            <div class="owl-carousel owl-theme">
+                <a href="">
+                    <img src="img/ava.jpg" class="card" alt="">
+                </a>
+                <a href="">
+                    <img src="img/zc.jpg" class="card" alt="">
+                </a>
+                <a href="">
+                    <img src="img/tomjerry.jpg" class="card" alt="">
+                </a>
+                <a href="">   
+                    <img src="img/mk.jpg" class="card" alt="">
+                </a>
+                <a href="">   
+                    <img src="img/stw.jpg" class="card" alt="">
+                </a>
+                <a href="">   
+                    <img src="img/nve.jpg" class="card" alt="">
+                </a>
+                <a href="">   
+                    <img src="img/mst.jpg" class="card" alt="">
+                </a>
+                <a href="">   
+                    <img src="img/ww.jpg" class="card" alt="">
+                </a>
             </div>
-            <div class="procura">
-                <p>Joran</p>
-            </div>
-        </nav>
+        </main>
 
-        <div class="descricao">
-            <h1>Stranger Things</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                In libero possimus eaque dolorum, voluptas perferendis perspiciatis illo id, 
-                enim tenetur, nesciunt placeat nostrum quos! Saepe eius vero sapiente cum esse?
-            </p>
-            <button>▶ Reproduzir</button> <button id="btn_lista">+ Minha lista</button>
-        </div>
-
-    </header>
-    <main>
-        <div class="filmes">
-            <h4>Populares na Netflix</h4>
-            <a href="">
-                <img src="img/ava.jpg" class="card" alt="">
-            </a>
-            <a href="">
-                <img src="img/zc.jpg" class="card" alt="">
-            </a>
-            <a href="">
-                <img src="img/tomjerry.jpg" class="card" alt="">
-            </a>
-            <a href="">   
-                <img src="img/mk.jpg" class="card" alt="">
-            </a>
-            <a href="">   
-                <img src="img/stw.jpg" class="card" alt="">
-            </a>
-            <a href="">   
-                <img src="img/nve.jpg" class="card" alt="">
-            </a>
-        </div>
-    </main>
+    </div>
 </body>
+
+<script src="script/owl/jquery.min.js"></script>
+<script src="script/owl/owl.carousel.min.js"></script>
+<script src="script/owl/main.js"></script>
 
 </html>

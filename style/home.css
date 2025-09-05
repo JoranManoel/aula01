@@ -32,6 +32,17 @@ main{
 }
 .procura{
     display: flex;
+    align-items: center;
+
+    text-decoration: none;
+    color: white;
+}
+.img_perfil{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+
+    border-radius: 5px;
 }
 ul{
     display: flex;
@@ -49,8 +60,9 @@ li:hover{
 }
 .descricao{
     width: 40%;
+    margin-bottom: 5px;
 }
-button{
+.button{
     height: 40px;
     width: 170px;
 
@@ -86,4 +98,7 @@ button:hover{
 }
 .card:hover{
     transform: scale(1.05);
+}
+.container{
+    overflow: hidden;
 }
